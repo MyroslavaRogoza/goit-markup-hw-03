@@ -146,17 +146,13 @@ img {
   overflow: hidden;
 }
 
-
-
-
-
-
 .main-desc-header {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.4px;
+  margin-bottom: 8px;
 }
 .text-content {
   font-size: 16px;
@@ -172,6 +168,11 @@ img {
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
+.main-desc-list-container {
+  display: flex;
+  gap: 24px;
+}
+
 .main-sec-team {
   background-color: #f4f4fd;
 }
