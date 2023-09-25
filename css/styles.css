@@ -49,7 +49,6 @@ img {
   padding-top: 24px;
   padding-bottom: 24px;
 }
-
 .link {
   text-decoration: none;
 }
@@ -80,7 +79,6 @@ img {
 .header-page-link:focus {
   color: #404bbf;
 }
-
 .header-address {
   font-style: normal;
 }
@@ -95,18 +93,15 @@ img {
 .header-contact-linkl:active {
   color: #404bbf;
 }
-
 .page-logo-span {
   margin-right: 76px;
 }
-
 .main-page-header {
   color: #fff;
   text-align: center;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  /*padding-top: 68px;*/
 }
 .main-btn {
   background-color: #4d5ae5;
@@ -145,7 +140,6 @@ img {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-
 .main-desc-header {
   color: #2e2f42;
   font-size: 20px;
