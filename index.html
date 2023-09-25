@@ -18,28 +18,27 @@
   </head>
   <body>
     <header class="header">
-      <div class="container">
+      <div class="header-container container">
         <div class="main-header-container">
-          <nav class="header-nav main-header-container">          
+          <nav class="header-nav main-header-container">
             <a href="./index.html" class="page-logo link"
-              >Web<span class="page-logo-span">Studio</span></a>
-              <ul class="list header-list-container">
-                <li class="header-list-item">
-                  <a href="./index.html" class="link header-page-link"
-                    >Studio</a
-                  >
-                </li>
-                <li class="header-list-item header-flex-item">
-                  <a href="" class="link header-page-link">Portfolio</a>
-                </li>
-                <li class="header-list-item header-flex-item">
-                  <a href="" class="link header-page-link">Contacts</a>
-                </li>
-              </ul>    
+              >Web<span class="page-logo-span">Studio</span></a
+            >
+            <ul class="list header-list-container">
+              <li class="header-list-item">
+                <a href="./index.html" class="link header-page-link">Studio</a>
+              </li>
+              <li class="header-list-item">
+                <a href="" class="link header-page-link">Portfolio</a>
+              </li>
+              <li class="header-list-item">
+                <a href="" class="link header-page-link">Contacts</a>
+              </li>
+            </ul>
           </nav>
           <address class="header-address">
             <ul class="list header-list-address header-list-container">
-              <li class="header-list-address-mail header-flex-item">
+              <li class="header-list-address-mail">
                 <a
                   href="mailto:info@devstudio.com"
                   class="link header-contact-link"
@@ -47,7 +46,7 @@
                   info@devstudio.com
                 </a>
               </li>
-              <li class="header-list-address-tel header-flex-item">
+              <li class="header-list-address-tel">
                 <a href="tel:+110001111111" class="link header-contact-link">
                   +11 (000) 111-11-11
                 </a>
@@ -61,7 +60,7 @@
       <section class="main-section-btn section">
         <div class="container main-btn-container">
           <h1 class="main-page-header">
-            Effective Solutions<br> for Your Business
+            Effective Solutions for Your Business
           </h1>
           <button type="button" class="main-btn">Order Service</button>
         </div>
@@ -69,7 +68,7 @@
       <section class="main-section-desc section">
         <div class="container">
           <h2 class="visually-hidden">Strategy</h2>
-          <ul class="main-desc-list list main-desc-list-container">
+          <ul class="main-desc-list list main-desc-list-container ">
             <li>
               <h3 class="main-desc-header">Strategy</h3>
               <p class="text-content">
@@ -107,23 +106,31 @@
           <ul class="main-list list team-list main-sec-container">
             <li class="team-list-item">
               <img src="./images/img1.jpg" alt="Mark Guerrero" width="264" />
-              <h3 class="main-desc-header">Mark Guerrero</h3>
+              <div class="main-desc-container">
+              <h3 class="main-desc-header team-desc-header">Mark Guerrero</h3>
               <p class="text-content">Product Designer</p>
+            </div>
             </li>
             <li class="team-list-item">
               <img src="./images/img2.jpg" alt="Tom Ford" width="264" />
-              <h3 class="main-desc-header">Tom Ford</h3>
+              <div class="main-desc-container">
+              <h3 class="main-desc-header team-desc-header">Tom Ford</h3>
               <p class="text-content">Frontend Developer</p>
+            </div>
             </li>
             <li class="team-list-item">
               <img src="./images/img3.jpg" alt="Camila Garcia" width="264" />
-              <h3 class="main-desc-header">Camila Garcia</h3>
+              <div class="main-desc-container">
+              <h3 class="main-desc-header team-desc-header">Camila Garcia</h3>
               <p class="text-content">Marketing</p>
+            </div>
             </li>
             <li class="team-list-item">
               <img src="./images/img4.jpg" alt="Daniel Wilson" width="264" />
-              <h3 class="main-desc-header">Daniel Wilson</h3>
+              <div class="main-desc-container">
+              <h3 class="main-desc-header team-desc-header">Daniel Wilson</h3>
               <p class="text-content">UI Designer</p>
+            </div>
             </li>
           </ul>
         </div>
@@ -134,31 +141,31 @@
           <ul class="main-list list main-sec-container">
             <li>
               <img src="./images/img5.jpg" alt="Banking App" width="360" />
-              <div class="main-portfoliao-content">
-              <h3 class="main-desc-header">Banking App</h3>
-              <p class="text-content">App</p>
-            </div class="main-portfoliao-content">
+              <div class="main-portfolio-content">
+                <h3 class="main-desc-header">Banking App</h3>
+                <p class="text-content">App</p>
+              </div>
             </li>
             <li>
               <img src="./images/img6.jpg" alt="Cashless Payment" width="360" />
-              <div class="main-portfoliao-content">
-              <h3 class="main-desc-header">Cashless Payment</h3>
-              <p class="text-content">Marketing</p>
-            </div>
+              <div class="main-portfolio-content">
+                <h3 class="main-desc-header">Cashless Payment</h3>
+                <p class="text-content">Marketing</p>
+              </div>
             </li>
             <li>
               <img src="./images/img7.jpg" alt="Meditation App" width="360" />
-              <div class="main-portfoliao-content">
-              <h3 class="main-desc-header">Meditation App</h3>
-              <p class="text-content">App</p>
-            </div>
+              <div class="main-portfolio-content">
+                <h3 class="main-desc-header">Meditation App</h3>
+                <p class="text-content">App</p>
+              </div>
             </li>
             <li>
               <img src="./images/img8.jpg" alt="Taxi Service" width="360" />
-              <div class="main-portfoliao-content">
-              <h3 class="main-desc-header">Taxi Service</h3>
-              <p class="text-content">Marketing</p>
-            </div>
+              <div class="main-portfolio-content">
+                <h3 class="main-desc-header">Taxi Service</h3>
+                <p class="text-content">Marketing</p>
+              </div>
             </li>
             <li>
               <img
@@ -166,17 +173,17 @@
                 alt="Screen Illustrations"
                 width="360"
               />
-              <div class="main-portfoliao-content">
-              <h3 class="main-desc-header">Screen Illustrations</h3>
-              <p class="text-content">Design</p>
-            </div>
+              <div class="main-portfolio-content">
+                <h3 class="main-desc-header">Screen Illustrations</h3>
+                <p class="text-content">Design</p>
+              </div>
             </li>
             <li>
               <img src="./images/img10.jpg" alt="Online Courses" width="360" />
-              <div class="main-portfoliao-content">
-              <h3 class="main-desc-header">Online Courses</h3>
-              <p class="text-content">Marketing</p>
-            </div>
+              <div class="main-portfolio-content">
+                <h3 class="main-desc-header">Online Courses</h3>
+                <p class="text-content">Marketing</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -188,11 +195,11 @@
           >Web<span class="page-logo-span">Studio</span></a
         >
         <p class="text-content">
-          Increase the flow of customers and<br> sales for your business with
-          digital<br> marketing & growth solutions.
+          Increase the flow of customers and<br />
+          sales for your business with digital<br />
+          marketing & growth solutions.
         </p>
       </div>
     </footer>
   </body>
 </html>
-

@@ -37,17 +37,25 @@ img {
   border-bottom: 1px solid #e7e9fc;
   background-color: #fff;
 }
+.header-container {
+  display: flex;
+}
 .main-header-container {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  align-items: center;
 }
+
 .header-list-container {
   display: flex;
   flex-direction: row;
   gap: 40px;
+}
+.header-list-item {
   padding-top: 24px;
   padding-bottom: 24px;
+}
+nav .header-list-container{
+  margin-right: 332px;
 }
 .link {
   text-decoration: none;
@@ -63,7 +71,6 @@ img {
   line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
-  padding-top: 25.5px;
   margin-right: 76px;
 }
 .page-logo-span {
@@ -93,15 +100,13 @@ img {
 .header-contact-linkl:active {
   color: #404bbf;
 }
-.page-logo-span {
-  margin-right: 76px;
-}
 .main-page-header {
   color: #fff;
   text-align: center;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  max-width: 496px
 }
 .main-btn {
   background-color: #4d5ae5;
@@ -114,6 +119,9 @@ img {
   cursor: pointer;
   padding: 16px 32px;
   border-radius: 4px;
+  min-width: 169px;
+  height: 56px;
+  border: none;
 }
 .main-btn:hover,
 .main-btn:focus {
@@ -121,6 +129,7 @@ img {
 }
 .main-section-btn {
   background-color: #2e2f42;
+  padding: 188px 0;
 }
 .main-btn-container {
   display: flex;
@@ -167,7 +176,8 @@ img {
 }
 .main-desc-list-container {
   display: flex;
-  gap: 48px 24px;
+  gap: 24px;
+  flex-basis: calc((100% - 3 * 24px)/4);
 }
 .main-sec-team {
   background-color: #f4f4fd;
@@ -177,19 +187,30 @@ img {
   text-align: center;
   border-radius: 0px 0px 4px 4px;
 }
-.main-sec-container{
+.main-desc-container{
+  padding: 32px 0;
+}
+.team-desc-header{
+  text-align: center;
+  margin-bottom: 8px; 
+}
+.team-list-item .text-content{
+  text-align: center;
+}
+.main-sec-container {
   display: flex;
   gap: 48px 24px;
   flex-wrap: wrap;
   flex-basis: calc((100% - 3 * 24) / 4);
 }
-.main-portfoliao-content{
-  padding: 0 16px;
-  border: 1px solid #E7E9FC;
+.main-portfolio-content {
+  border: 1px solid #e7e9fc;
   border-top: none;
+  padding: 32px 16px
 }
 .footer {
   background-color: #2e2f42;
+  padding-top: 101.5px;
 }
 .footer .page-logo-span {
   color: #f4f4fd;
@@ -197,10 +218,11 @@ img {
 .footer .text-content {
   color: #f4f4fd;
 }
-.footer {
-  padding-top: 101.5px;
+.footer a{
+  display: inline-block;
+  margin-bottom: 16px;
 }
-.footer .text-content{
+.footer .text-content {
   margin-top: 17.5px;
-  padding-bottom: 100px ;
+  padding-bottom: 100px;
 }
