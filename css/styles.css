@@ -66,6 +66,8 @@ nav .header-list-container {
   letter-spacing: 0.54px;
   text-transform: uppercase;
   margin-right: 76px;
+}
+.header-section{
   padding-top: 24px;
   padding-bottom: 24px;
 }
