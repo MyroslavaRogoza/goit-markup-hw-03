@@ -52,7 +52,6 @@ img {
 }
 .header-list-container {
   display: flex;
-  flex-direction: row;
   gap: 40px;
 }
 nav .header-list-container {
@@ -67,6 +66,8 @@ nav .header-list-container {
   letter-spacing: 0.54px;
   text-transform: uppercase;
   margin-right: 76px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .page-logo-span {
   color: #2e2f42;
@@ -94,9 +95,6 @@ nav .header-list-container {
 .header-contact-link:focus,
 .header-contact-linkl:active {
   color: #404bbf;
-}
-.header-list-item {
-  padding: 24px 0;
 }
 .main-page-header {
   color: #fff;
