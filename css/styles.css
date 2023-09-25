@@ -71,9 +71,6 @@ nav .header-list-container {
 .page-logo-span {
   color: #2e2f42;
 }
-.header-list-item {
-  padding: 24px 0;
-}
 .header-page-link {
   color: #2e2f42;
   font-weight: 500;
@@ -97,6 +94,9 @@ nav .header-list-container {
 .header-contact-link:focus,
 .header-contact-linkl:active {
   color: #404bbf;
+}
+.header-list-item {
+  padding: 24px 0;
 }
 .main-page-header {
   color: #fff;
