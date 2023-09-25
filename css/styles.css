@@ -67,18 +67,16 @@ nav .header-list-container {
   text-transform: uppercase;
   margin-right: 76px;
 }
-.header-section{
-  padding-top: 24px;
-  padding-bottom: 24px;
-}
 .page-logo-span {
   color: #2e2f42;
 }
 .header-page-link {
+  display: block;
   color: #2e2f42;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.32px;
+  padding: 24px 0;
 }
 .header-page-link:hover,
 .header-page-link:focus {
