@@ -55,9 +55,6 @@ img {
   flex-direction: row;
   gap: 40px;
 }
-.header-list-item {
-  padding: 24px 0;
-}
 nav .header-list-container {
   margin-right: 332px;
 }
@@ -73,6 +70,9 @@ nav .header-list-container {
 }
 .page-logo-span {
   color: #2e2f42;
+}
+.header-list-item {
+  padding: 24px 0;
 }
 .header-page-link {
   color: #2e2f42;
